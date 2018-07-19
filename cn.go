@@ -1,6 +1,6 @@
 package cryptonight
 
-// #cgo CFLAGS: -maes
+// #cgo CFLAGS: -march=native
 // #include "cn.h"
 import "C"
 import "unsafe"
